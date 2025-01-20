@@ -1,0 +1,38 @@
+.header_container {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: center;
+
+  font-family: "Open Sans", serif;
+}
+
+.header_content h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: #000 1px 0 10px;
+}
+
+.header_content h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: #000 1px 0 10px;
+}
+
+.header_buttons-container {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,17 @@
+.button {
+  font-family: "Open Sans", serif;
+  font-weight: 700;
+  font-size: 24px;
+
+  border: none;
+  text-align: center;
+  border-radius: 25px;
+  padding: 5px 20px;
+  margin: 5px 10px;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  outline: #fff 2px solid;
+}

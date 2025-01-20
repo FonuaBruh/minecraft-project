@@ -1,0 +1,51 @@
+.container {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content_bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+  padding: 50px 10px;
+
+  font-family: "Open Sans", serif;
+  color: #fff;
+  text-shadow: #000 1px 0 10px;
+}
+
+.content_bar h1 {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.content_bar h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.content_buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  margin-top: 20px;
+}
+
+.content_buttons button {
+  font-family: "Open Sans", serif;
+  font-size: 20px;
+  font-weight: 600;
+
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.content_main {
+}
+
+.content_card {
+}
