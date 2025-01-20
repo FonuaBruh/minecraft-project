@@ -1,6 +1,7 @@
 import styles from './Mods.module.css'
 import modsBg from './mods_header.jpg'
 import { useState } from 'react'
+
 import botania from './botania.png'
 import create from './create.jpg'
 import divine from './divine.jpg'
@@ -126,8 +127,8 @@ const Mods = () => {
             </div>
             <div className={styles.content_main}>
                 {filteredMods.map(mod =>(
-                    <div key={mod.id} style={{ width: '33%', padding: '10px'}} className={styles.content_card}>
-                        <img src={mod.image} alt={mod.title} style={{ width: '100%' }} />
+                    <div key={mod.id}  className={styles.content_card}>
+                        <img src={mod.image} alt={mod.title}  />
                         <h3>{mod.title}</h3>
                         <p>{mod.description}</p>
                         <a href={mod.link} target='_blank' rel='noopener noreferrer'>
